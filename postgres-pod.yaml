@@ -15,4 +15,4 @@ spec:
         - name: POSTRES_USER
           value: "postres"
           name: POSTGRES_PASSWORD
-          value: "postres""
+          value: "postres"
