@@ -6,10 +6,10 @@ metadata:
     name: postgres-service
     app: demo-voting-app
 spec:
-  type: ClusterIP
+  type: clusterIP
   ports:
-     - port: 5432
-       targetPort: 5432
+     -port: 5432
+      targetPort: 5432
   selector:
       name: postgres-pod
       app: demo-voting-app
